@@ -7,7 +7,7 @@
     "username": "root",
     "password": null,
     "database": "adobot",
-    "host": "localhost:3306",
+    "host": "localhost",
     "dialect": "mysql",
     "admin" : {
       "username": "admin",
