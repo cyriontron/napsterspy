@@ -15,7 +15,7 @@
     }
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
+    "use_env_variable": "mysql://b737fc80c24267:bf471b00@eu-cdbr-west-02.cleardb.net/heroku_e4bd9ce2757081b?reconnect=true",
     "pool": {
       "max": 5,
       "min": 1,
@@ -24,10 +24,10 @@
     },
     "admin": {
       "username": {
-        "use_env_variable": "ADMIN_USERNAME"
+        "use_env_variable": "Cyriontron"
       } ,
       "password": {
-        "use_env_variable": "ADMIN_PASSWORD"
+        "use_env_variable": "NCj@20142018"
       }
     }
   }
