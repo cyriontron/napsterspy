@@ -1,6 +1,11 @@
 {
-  "name": "androspy",
+  "name": "napsterspy",
   "version": "1.0.0",
+  "engines": {
+    "node": "13.11.0",
+    "npm": "6.13.7"
+  },
+
   "description": "NodeJS port of Dendroid server",
   "main": "index.js",
   "scripts": {
@@ -12,23 +17,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/adonespitogo/dendroid-nodejs.git"
+    "url": "git+ssh://git@github.com/cyriontron/napsterspy.git"
   },
   "keywords": [
     "dendroid",
     "nodejs",
     "express"
   ],
-  "author": "Adones Pitogo",
+  "author": "Cyrion",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adonespitogo/dendroid-nodejs/issues"
+    "url": "https://github.com/cyriontron/napsterspy/issues"
   },
-  "homepage": "https://github.com/adonespitogo/dendroid-nodejs#readme",
+  "homepage": "https://github.com/cyriontron/napsterspy#readme",
   "dependencies": {
     "body-parser": "^1.16.1",
     "del": "^3.0.0",
     "express": "^4.14.1",
+    "node": "13.11.0",
     "gulp": "^3.9.1",
     "gulp-angular-templatecache": "^2.2.5",
     "gulp-concat": "^2.6.1",
@@ -48,6 +54,7 @@
   },
   "devDependencies": {
     "gulp-jshint": "^2.1.0",
+    "node": "13.11.0",
     "gulp-watch": "^4.3.11",
     "jshint": "^2.9.6",
     "npm-run-all": "^4.1.5"
