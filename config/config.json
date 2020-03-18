@@ -5,10 +5,11 @@
   },
   "development": {
     "username": "root",
-    "password": null,
+    "password": "",
     "database": "adobot",
     "host": "localhost",
     "dialect": "mysql",
+    "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock",
     "admin" : {
       "username": "admin",
       "password": "admin"
